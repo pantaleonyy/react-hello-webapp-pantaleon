@@ -1,0 +1,116 @@
+{
+    "config": {
+        "port": 3000,
+        "os": "darwin",
+        "editor": {
+            "mode": "extension",
+            "agent": "vscode",
+            "version": "5.0.363"
+        },
+        "dirPath": "./.learn",
+        "configPath": "learn.json",
+        "outputPath": ".learn/dist",
+        "publicPath": "/preview",
+        "publicUrl": "http://localhost:3000",
+        "contact": "https://github.com/learnpack/learnpack/issues/new",
+        "language": "auto",
+        "autoPlay": true,
+        "projectType": "template",
+        "grading": "isolated",
+        "exercisesPath": "./",
+        "webpackTemplate": null,
+        "disableGrading": false,
+        "disabledActions": [],
+        "actions": [],
+        "entries": {
+            "html": "index.html",
+            "vanillajs": "index.js",
+            "react": "app.jsx",
+            "node": "app.js",
+            "python3": "app.py",
+            "java": "app.java"
+        },
+        "suggestions": {
+            "agent": null
+        },
+        "warnings": {},
+        "title": {
+            "en": "React.js Starter Template for web applications",
+            "es": "Plantilla Inicial para crear applicaciones semi-senior con React"
+        },
+        "description": {
+            "en": "This is a starter template for legit React.js projects. It includes a basic folder structure, a sample component, styles and other usual configurations to quicly kickstart your project.",
+            "es": "Este es una plantilla inicial para proyectos de React.js. Incluye una estructura básica de carpetas, un componente de ejemplo, estilos y otras configuraciones habituales para iniciar rápidamente tu proyecto."
+        },
+        "repository": "https://github.com/4geeksacademy/react-hello-webapp",
+        "preview": "",
+        "difficulty": "beginner",
+        "technologies": [
+            "React.js",
+            "Javascript",
+            "Vite"
+        ],
+        "translations": []
+    },
+    "address": "http://localhost:3000",
+    "currentExercise": null,
+    "exercises": [
+        {
+            "position": 0,
+            "path": "01-hello-world",
+            "slug": "01-hello-world",
+            "translations": {},
+            "language": "react",
+            "entry": null,
+            "title": "01-hello-world",
+            "graded": false,
+            "files": [
+                {
+                    "path": "01-hello-world/index.css",
+                    "name": "index.css",
+                    "hidden": false
+                },
+                {
+                    "path": "01-hello-world/assets",
+                    "name": "assets",
+                    "hidden": true
+                },
+                {
+                    "path": "01-hello-world/components",
+                    "name": "components",
+                    "hidden": true
+                },
+                {
+                    "path": "01-hello-world/hooks",
+                    "name": "hooks",
+                    "hidden": true
+                },
+                {
+                    "path": "01-hello-world/main.jsx",
+                    "name": "main.jsx",
+                    "hidden": false
+                },
+                {
+                    "path": "01-hello-world/pages",
+                    "name": "pages",
+                    "hidden": true
+                },
+                {
+                    "path": "01-hello-world/routes.jsx",
+                    "name": "routes.jsx",
+                    "hidden": false
+                },
+                {
+                    "path": "01-hello-world/store.js",
+                    "name": "store.js",
+                    "hidden": false
+                }
+            ],
+            "done": false
+        }
+    ],
+    "bugsLink": null,
+    "videoSolutions": false,
+    "localhostOnly": false,
+    "session": 1050852804731021700
+}
