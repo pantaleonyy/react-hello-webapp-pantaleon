@@ -1,4 +1,3 @@
-
 import { Route, Routes } from "react-router-dom";
 import { Layout } from "./pages/Layout";
 
@@ -10,12 +9,13 @@ export default function AppRoutes() {
   return (
     <Routes>
       <Route element={<Layout />}>
-      
+
         <Route index element={<Home />} />
 
         <Route path="add-contact" element={<AddContact />} />
 
         <Route path=":id/edit" element={<EditContact />} />
+
       </Route>
     </Routes>
   );
